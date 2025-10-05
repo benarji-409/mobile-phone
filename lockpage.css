@@ -1,0 +1,418 @@
+.background {
+  background-color: whitesmoke
+}
+
+.phone {
+  background-color: black;
+  width: 300px;
+  height: 550px;
+  margin-left: 580px;
+  margin-top: 110px;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ribbon {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.time {
+  color: white;
+  font-size: 15px;
+}
+
+.icons i {
+  color: white;
+  font-size: 15px;
+}
+
+.face {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.locked i {
+  color: white;
+  margin-top: 120px;
+  font-size: 30px;
+}
+
+.lock-tittle-word,
+.password-show {
+  color: white;
+  text-align: center;
+}
+
+.password-show {
+  margin-top: 80px;
+  font-size: 10px;
+}
+
+.password-box {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.a {
+  color: white;
+  font-size: 20px;
+}
+
+.b {
+  border: 1px solid white;
+  width: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.enter-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.welcome {
+  color: lightgreen;
+  font-size: 20px;
+}
+
+.apps {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.app-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.app-btn:hover {
+  background-color: lightgreen;
+  color: white;
+  cursor: pointer;
+}
+
+.d {
+  margin-top: 180px;
+}
+
+/* Music App */
+.music-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 60px;
+  width: 100%;
+  position: relative;
+}
+
+.music-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.music-app-heading {
+  color: white;
+  font-size: 18px;
+}
+
+.music-screen .back-button {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.arjun-reddy-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.music-controls {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.control-btn {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.control-btn:hover {
+  background-color: lightgreen;
+  color: black;
+}
+
+/* Calculator App */
+.calculator-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100%;
+  margin-top: 60px;
+  position: relative;
+}
+
+.calc-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.calc-heading {
+  color: white;
+  font-size: 20px;
+}
+
+.calculator-screen .back-button {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.calc-display {
+  width: 230px;
+  height: 40px;
+  margin-top: 20px;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 8px;
+  padding-right: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.buttons button {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+.clear {
+  background-color: red;
+  color: white;
+}
+
+/* Phone App */
+.phone-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.phone-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.phone-app-heading {
+  color: white;
+  font-size: 18px;
+}
+
+.phone-app .back-button {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  background: none;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.dial-display {
+  width: 220px;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+}
+
+.dial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  grid-template-rows: repeat(4, 70px);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dial-btn {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.dial-btn:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+.call-button-division {
+  margin-top: 15px;
+}
+
+.call-btn {
+  background-color: lightgreen;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.call-btn:hover {
+  background-color: green;
+}
+
+/* Call Screen */
+.call-screen {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.calling-number {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.calling-text {
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.call-options {
+  display: grid;
+  grid-template-columns: repeat(2, 80px);
+  grid-template-rows: repeat(2, 80px);
+  gap: 10px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.option-btn {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.option-btn:hover {
+  background-color: lightgreen;
+  color: black;
+}
+
+.hangup-division {
+  margin-top: 20px;
+}
+
+.hangup-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.hangup-btn:hover {
+  background-color: darkred;
+}

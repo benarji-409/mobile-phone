@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bunny's mobile</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="lockpage.css">
+  <script src="lockpage.js"></script>
+</head>
+<body class="background">
+  <div class="phone">
+    <div class="ribbon">
+      <h5 class="time">1:43 PM</h5>
+      <div class="icons">
+        <i class="fa-solid fa-signal"></i>
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-battery-full"></i>
+      </div>
+    </div>
+
+    <div class="face" id="face">
+      <div class="locked">
+        <i class="fa-solid fa-lock"></i>
+      </div>
+      <div class="lock-tittle">
+        <h3 class="lock-tittle-word">YOUR PHONE IS LOCKED</h3>
+      </div>
+      <div class="password-show">
+        FOR NOW YOUR PASSWORD IS : MONEY-IS-EVERYTHING
+      </div>
+      <div class="password-box">
+        <label class="a" for="password">ENTER PASSWORD:</label><br><br>
+        <input class="b" type="text" id="password"><br><br>
+        <button class="enter-button" onclick="checkPassword()">ENTER</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
